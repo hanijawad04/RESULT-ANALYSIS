@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Registration</title>
+</head>
+<body>
+    <h2>Faculty Registration Form</h2>
+    <form action="RegisterServlet" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+            <option value="CSE">Computer Science (CSE)</option>
+            <option value="Civil">Civil Engineering</option>
+            <option value="Mechanical">Mechanical Engineering</option>
+            <option value="ECE">Electronics & Communication (ECE)</option>
+            <option value="EEE">Electrical & Electronics (EEE)</option>
+        </select><br>
+
+        <label for="year">Year:</label>
+        <select id="year" name="year" required>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select><br>
+
+        <label for="class">Class:</label>
+        <select id="class" name="class" required>
+            <option value="1">Class 1</option>
+            <option value="2">Class 2</option>
+            <option value="3">Class 3</option>
+        </select><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
