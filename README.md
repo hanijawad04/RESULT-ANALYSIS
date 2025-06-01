@@ -75,8 +75,8 @@ http://localhost:8080/ResultAnalysis/
 ## 🙋‍♂️ Author
 
 * **Hani Jawad**
-* Email: hanijawad04@gmail.com
-* GitHub: https://github.com/hanijawad04
+* 📧 [hanijawad04@gmail.com](mailto:hanijawad04@gmail.com)
+* 🧑‍💻 [GitHub Profile](https://github.com/hanijawad04)
 
 ---
 
